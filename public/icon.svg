@@ -1,32 +1,23 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 512 512" xml:space="preserve">
-<g>
-	<g>
-		<path d="M256,0c-65.733,0-119.211,53.479-119.211,119.211S190.267,238.423,256,238.423s119.211-53.479,119.211-119.211
-			S321.733,0,256,0z M256,218.024c-54.486,0-98.813-44.328-98.813-98.813S201.515,20.398,256,20.398s98.813,44.328,98.813,98.813
-			S310.485,218.024,256,218.024z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M426.272,331.529c-45.48-45.48-105.952-70.529-170.272-70.529c-64.32,0-124.791,25.047-170.273,70.529
-			c-45.48,45.48-70.529,105.952-70.529,170.272c0,5.632,4.566,10.199,10.199,10.199h461.204c5.632,0,10.199-4.567,10.199-10.199
-			C496.801,437.482,471.752,377.01,426.272,331.529z M35.831,491.602C41.179,374.789,137.889,281.398,256,281.398
-			s214.821,93.391,220.17,210.204H35.831z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M182.644,457.944H66.295c-5.633,0-10.199,4.567-10.199,10.199s4.566,10.199,10.199,10.199h116.349
-			c5.633,0,10.199-4.567,10.199-10.199S188.277,457.944,182.644,457.944z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path d="M225.621,457.944h-7.337c-5.633,0-10.199,4.567-10.199,10.199s4.566,10.199,10.199,10.199h7.337
-			c5.633,0,10.199-4.567,10.199-10.199S231.254,457.944,225.621,457.944z"/>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Security Shield Icon with AA initials -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield shape -->
+  <path d="M50 5 L85 20 L85 45 C85 65 70 85 50 95 C30 85 15 65 15 45 L15 20 Z" 
+        fill="url(#grad)" stroke="#1e3a8a" stroke-width="2"/>
+  
+  <!-- Lock icon inside shield -->
+  <rect x="42" y="50" width="16" height="12" fill="#fff" rx="1"/>
+  <path d="M45 50 L45 45 C45 42 47 40 50 40 C53 40 55 42 55 45 L55 50" 
+        fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="50" cy="56" r="2" fill="#1e40af"/>
+  
+  <!-- AA text at top -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-size="18" 
+        font-weight="bold" fill="#fff" text-anchor="middle">AA</text>
 </svg>
