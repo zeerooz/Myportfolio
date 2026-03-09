@@ -10,7 +10,7 @@ interface ThemeContextType {
 }
 
 const ThemeContext = createContext<ThemeContextType>({
-  theme: "light",
+  theme: "dark",
   toggleTheme: () => {},
 })
 
@@ -19,13 +19,18 @@ export function useTheme() {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("light")
+  const [theme, setTheme] = useState<Theme>("dark")
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     const stored = localStorage.getItem("portfolio-os-theme") as Theme | null
-    if (stored === "dark") {
-      setTheme("dark")
+    if (stored) {
+      setTheme(stored)
+      if (stored === "dark") {
+        document.documentElement.classList.add("dark")
+      }
+    } else {
+      // Default to dark mode
       document.documentElement.classList.add("dark")
     }
     setMounted(true)

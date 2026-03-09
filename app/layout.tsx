@@ -7,9 +7,8 @@ const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const _silkscreen = Silkscreen({ weight: ['400', '700'], subsets: ['latin'], variable: '--font-silkscreen' })
 
 export const metadata: Metadata = {
-  title: 'Portfolio OS | Computer Science & IT Security',
-  description: 'Interactive OS-themed portfolio for a fresh CS graduate specializing in IT Security and Software Security.',
-  generator: 'v0.app',
+  title: 'Ahmed Alaa | Computer Science & IT Security',
+  description: 'Interactive portfolio of Ahmed Alaa - Computer Science graduate specializing in IT Security, Network Security, and Full-Stack Development.',
   icons: {
     icon: [
       {
