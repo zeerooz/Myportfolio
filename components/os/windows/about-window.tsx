@@ -8,8 +8,12 @@ export function AboutWindow() {
       <div className="max-w-lg mx-auto space-y-6">
         {/* Profile Header */}
         <div className="flex items-start gap-4">
-          <div className="w-16 h-16 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center shrink-0">
-            <Shield className="w-8 h-8 text-primary" />
+          <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-primary/30 flex items-center justify-center shrink-0">
+            <img
+              src="/profile-photo.jpeg"
+              alt="Ahmed Alaa"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="space-y-1">
             <h1 className="text-xl font-bold text-foreground">Ahmed Alaa</h1>
@@ -25,9 +29,9 @@ export function AboutWindow() {
         <div className="space-y-2">
           <h2 className="text-sm font-semibold text-foreground uppercase tracking-wider">About</h2>
           <p className="text-sm text-foreground/80 leading-relaxed">
-            Graduated Computer Science student with an IT Security Major. Passionate about cybersecurity with a strong 
-            foundation in network security, penetration testing, and digital forensics. Practical experience in penetration 
-            testing and web/mobile application security through platforms like TryHackMe and Hack The Box. Always eager to 
+            Graduated Computer Science student with an IT Security Major. Passionate about cybersecurity with a strong
+            foundation in network security, penetration testing, and digital forensics. Practical experience in penetration
+            testing and web/mobile application security through platforms like TryHackMe and Hack The Box. Always eager to
             apply practical skills in real-world scenarios to safeguard systems and information.
           </p>
         </div>
